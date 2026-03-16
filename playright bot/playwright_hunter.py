@@ -883,12 +883,12 @@ async def main():
 
         elapsed = (datetime.now() - start_time).total_seconds()
         print(f"""
-╔══════════════════════════════════════════════════════════════╗
-║  ⚡ MISSION COMPLETE                                        ║
-║  New leads captured:  {total_new_leads:<37}║
-║  Total time:          {elapsed:.0f}s{' ' * (34 - len(f'{elapsed:.0f}s'))}║
-║  Output file:         {OUTPUT_CSV:<37}║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  ⚡ MISSION COMPLETE                                                         ║ 
+║  New leads captured:  {total_new_leads:<37}                                  ║
+║  Total time:          {elapsed:.0f}s{' ' * (34 - len(f'{elapsed:.0f}s'))}    ║
+║  Output file:         {OUTPUT_CSV:<37}                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
         """)
 
 
